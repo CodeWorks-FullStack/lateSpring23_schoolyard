@@ -1,0 +1,13 @@
+
+  {
+    "name": "schoolyard",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd schoolyard.client && npm i",
+      "setup:server": "cd schoolyard && npm i",
+      "start": "node schoolyard/index.js"
+    }
+  }
+  
